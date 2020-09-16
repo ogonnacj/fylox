@@ -1,0 +1,317 @@
+@import url(https://fonts.google.com/specimen/Raleway) ;
+@import url(https://fonts.google.com/specimen/Open+Sans);
+body{
+    background-color: hsl(218, 28%, 13%);
+    padding: 0px 0px 0px 0px ;
+    color: hsl(0, 0%, 100%);
+    font-family: Open ans sans-serif;
+    font-size: 14px;
+}
+/* title*/
+.title{
+    text-align: center;
+    font-family: raleway;
+    width: 100%;
+    background-color: hsl(217, 28%, 15%);
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+nav{
+    margin-bottom:0 ;
+    background-color: hsl(217, 28%, 15%);
+}
+.intro{
+  width: 500px;
+  height: 340;  
+}
+.heading{
+    background-image: url("images/bg-curvy-desktop.svg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+   background-size: 100% 270px;
+}
+.title h2{
+    font-weight: 700;
+    width: 500px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+.title p{
+    width: 34%;
+    margin: 0 auto;
+    font-size: 400;
+    padding-bottom: 10px;
+}
+button{
+    background-color: hsl(198, 60%, 50%);
+    border-radius: 1.5rem;
+    color: hsl(0, 0%, 100%);
+    width: 170px;
+    height: 35px;
+    border: 0px;
+    padding: 5px;
+}
+/*work*/
+.work .container{
+    text-align: center;
+    padding: 70px 0 40px 0;
+
+}
+.work .container p{
+    width: 80%;
+    margin: 0 auto;
+}
+.work .container .col{
+padding-bottom: 50px ;
+}
+.work .container .row{
+    padding-bottom: 50px ;
+    }
+.work img{
+    padding: 30px 0;
+}
+/*produt*/
+.product{
+    display: flex;
+    align-items: center;
+    padding: 0px 50px  100px 50px;
+    
+}
+.product .img1{
+height: 460px;
+width: auto;
+margin-right: 50px;
+}
+.product-text{
+    margin-bottom: 25px;
+}
+.product-link{
+    color: hsl(176, 68%, 64%);
+    border-bottom: 1px solid hsl(176, 68%, 64%);
+    text-align: center;
+}
+/*comment section*/
+.comment{
+    margin: 0 70px;
+}
+.box{
+    border: 2px solid hsl(219, 30%, 18%);
+    padding: 45px 45px;
+    background-color:hsl(219, 30%, 18%) ;
+    border-radius: 3px;
+    margin-bottom: 80px;
+
+}
+.box p{
+    margin-bottom: 25px;
+}
+.box img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin:0 10px;
+}
+.box-profile{
+    display: flex;
+}
+.box-profile h6 {
+    font-size: 10px;
+    margin-bottom: 0;
+}
+.box-profile p{
+    font-size: 8px;
+}
+/*sign up*/
+
+.sign-up{
+    background-color: hsl(217, 28%, 15%) ;
+    text-align: center;
+    padding: 50px 100px;
+    border-radius:5px ;
+    left: 50%;
+    transform: translateY(50%);
+    
+}
+.sign-up h3{
+    margin-bottom: 30px;
+}
+.sign-up p{
+    margin-bottom: 30px;
+    text-align: center;
+}
+.sign-up input{
+    width: 250px;
+    height: auto;
+    border-radius: 50px;
+    padding-right: 20px;
+    border: 0;
+    padding: 5px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+
+}
+::placeholder{
+    opacity: 0.4;
+}
+
+/*footer*/
+
+.footer{
+    background-color: hsl(216, 53%, 9%);
+    padding:230px 80px 80px 100px ;
+    margin-bottom: 0px;
+}
+.footer .footer-logo{
+padding: 30px 0;
+}
+.footer-location{
+    display: flex;  
+}
+.footer-location img{
+    margin: 20px;
+    height: 15px;
+    width: 10px;
+}
+.footer-phone{
+    display: flex;
+    margin-left: 20px;
+    
+} 
+.footer-phone img{
+    width: 20px;
+    height: 20px;
+    margin-right: 24px;
+   
+}
+.col-lg-3.link{
+    display: flex;
+    padding: 0px;
+}
+.col-lg-3.link .row{
+    width: 200px;
+    height: auto;
+}
+.footer a{
+    color:hsl(0, 0%, 100%) ;
+    margin-bottom: 25px;
+    margin-left:20px ;
+    margin-top: 20px;
+}
+
+ /*phone size  */
+@media(max-width: 375px){
+    body{
+        font-size: 10px;
+        text-align: center;
+    }
+    .intro{
+        margin: 10px;
+    }
+    .title h2{
+        font-size: 25px;
+        width: 300px;
+        margin: 23px;
+    }
+    .title p{
+        width: 290px;
+        font-size: 12px;
+        padding: 8px 23px;
+    }
+    .title{
+        background-image: url("images/bg-curvy-mobile.svg");
+        background-repeat: no-repeat;
+        background-position: bottom;
+    }
+    .title nav img{
+        width: 82px;
+        height: 24px;
+    }
+    .heading img{
+        width: 365px;
+        height: 225px;
+    }
+    /*produt*/
+    .product{
+        flex-direction: column;
+        padding: 0 25px;
+    }
+    .product .img1{
+        height: 215px;
+        margin:0px 4px 50px 5px;
+    }
+  /*comment*/
+  .box{
+      padding: 30px 10px;
+      width: 202px;
+      height: auto;
+      margin-bottom: 40px;
+     
+  }  
+  .quote{
+     text-align: left;
+  }
+  /*sign in*/
+  .sign-up{
+      padding: 25px 50px;
+  }
+    .sign .sign-up input{
+      width: 170px;
+      height: 30px;
+    
+  }
+  /* footer*/
+  .footer{
+      padding: 250px 0px 40px 50px;
+      text-align: left;
+
+  }
+   .footer-content{
+       flex-direction: column;
+   }
+  .footer .footer-logo{
+      padding: 10px 10px 30px 10px;
+      margin-top: 30px;
+  }
+  .footer-location{
+      padding: 0px 10px;
+      margin-bottom: 20px;
+  }
+  .col-lg-3.info{
+      margin-bottom: 20px;
+      padding: 0 30px;
+  }
+  .row.firstlink{
+     margin: 0 0 20px 0;
+  }
+  .row.secondlink{
+    margin: 0 0 20px 0;
+  }
+  .footer-phone img{
+    width: 10px;
+    height: 10px;
+    margin-right: 12px;
+}
+.footer a{
+    padding: 10px;
+}
+  .col-lg-3.link{
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+ .col-lg-3.social {
+    font-size: 15px;
+    text-align: center;
+}
+.fab-instagram{
+    justify-self: start;
+}
+.fab-twitter{
+    justify-self: center;
+    
+}
+.fab-facebook{
+    justify-self: end;
+}
+
+}
+
